@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Site</title>
+    <!-- favicone link -->
+     <link rel="shortcut icon" href="./c2-assets/Home.png" type="image/x-icon">
+     <!-- font awesome link -->
+     <script src="https://kit.fontawesome.com/3c141c58e8.js" crossorigin="anonymous"></script>
+     <!-- google font link -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- daisyUI and tailwind CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                btn_color: '#179800',
+              }
+            }
+          }
+        }
+      </script>
+
+     <style>
+        body{
+            font-family: "Sora", serif;
+        }
+     </style>
+
+</head>
+<body >
+    <header class="bg-gradient-to-b from-gray-100 to-gray-300">
+        <!-- nav bar -->
+         <section class="w-10/12 mx-auto pt-6 flex justify-between items-center">
+            <!-- logo -->
+            <div>
+                <img src="./c2-assets/logo-header.png" alt="a logo image">
+            </div>
+            <!-- menu -->
+             <div class="invisible lg:visible">
+                <ul class="flex gap-8 text-xl">
+                    <li><a href="#" class="text-stone-900">Product</a></li>
+                    <li><a href="#" class="text-stone-900">Services</a></li>
+                    <li><a href="#" class="text-stone-900">Contact us</a></li>
+                </ul>
+             </div>
+             <!-- login side -->
+              <div class="flex items-center gap-5 invisible lg:visible">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <input type="submit" value="login" class="text-xl text-stone-900 btn border border-gray-300 bg-white">
+                <input type="submit" value="Register" class="text-xl text-white btn bg-green-500">
+                <a href="#" class="visible lg:invisible">  <i class="fa-solid fa-bars"></i></a>
+              </div>
+
+         </section>
+
+    </header>
+
+    <main>
+
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+    
+</body>
+</html>
